@@ -70,29 +70,40 @@
 
 
 //operator precedence
-var now = 2019;
-var yearJohn = 1992;
-var fullage = 27;
+// var now = 2019;
+// var yearJohn = 1992;
+// var fullage = 27;
 
-//multiple operators
-var isFullage = now - yearJohn >= fullage;
-console.log(isFullage);
+// //multiple operators
+// var isFullage = now - yearJohn >= fullage;
+// console.log(isFullage);
 
-//Grouping
-var ageJohn = now - yearJohn;
-var ageMark = 35;
-var average = (ageJohn + ageMark) / 2;
-console.log(average);
+// //Grouping
+// var ageJohn = now - yearJohn;
+// var ageMark = 35;
+// var average = (ageJohn + ageMark) / 2;
+// console.log(average);
 
-//Multiple assginment
-var x,y;
-x = y = (3 + 5) * 4 - 6;
-console.log(x, y);
+// //Multiple assginment
+// var x,y;
+// x = y = (3 + 5) * 4 - 6;
+// console.log(x, y);
 
-//more operators
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x++;
-console.log(x);
+// //more operators
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x++;
+// console.log(x);
+
+var massDavid = 110; //kg
+var heightDavid = 1.87; // meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var BMIDavid = massDavid / (heightDavid * heightDavid);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIDavid, BMIJohn);
