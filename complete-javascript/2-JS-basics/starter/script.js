@@ -47,23 +47,52 @@
  * Basic Operators
  */
 
- var year, yearJohn, yearMark;
- now = 2019;
- ageJohn = 27;
- ageMark = 33;
- yearJohn = now - ageJohn;
- yearMark = now - ageMark;
+//  var year, yearJohn, yearMark;
+//  now = 2019;
+//  ageJohn = 27;
+//  ageMark = 33;
+//  yearJohn = now - ageJohn;
+//  yearMark = now - ageMark;
 
- console.log(yearJohn);
+//  console.log(yearJohn);
 
- console.log(now + 2);
- console.log(now * 2);
- console.log(now / 10);
+//  console.log(now + 2);
+//  console.log(now * 2);
+//  console.log(now / 10);
 
- //Logical operator
- var johnOlder = ageJohn < ageMark;
- console.log(johnOlder);
+//  //Logical operator
+//  var johnOlder = ageJohn < ageMark;
+//  console.log(johnOlder);
 
- //type operator
-console.log(typeof johnOlder);
-console.log(typeof ageJohn);
+//  //type operator
+// console.log(typeof johnOlder);
+// console.log(typeof ageJohn);
+
+
+//operator precedence
+var now = 2019;
+var yearJohn = 1992;
+var fullage = 27;
+
+//multiple operators
+var isFullage = now - yearJohn >= fullage;
+console.log(isFullage);
+
+//Grouping
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+var average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+//Multiple assginment
+var x,y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
+
+//more operators
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+x++;
+console.log(x);
