@@ -25,19 +25,45 @@
 */
 
 //Type coercion
-var firstName = 'John';
-var age = 28;
-console.log(firstName + ' ' + age);
+// var firstName = 'John';
+// var age = 28;
+// console.log(firstName + ' ' + age);
 
-var job, isMarried;
-job = 'Teacher';
-isMarried = false;
-console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+// var job, isMarried;
+// job = 'Teacher';
+// isMarried = false;
+// console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
-//Vairable mutation
-age = 'twenty eight';
-job = 'driver';
-alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+// //Vairable mutation
+// age = 'twenty eight';
+// job = 'driver';
+// alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
-var lastName = prompt('What is his last name?');
-console.log(firstName + '' + lastName);
+// var lastName = prompt('What is his last name?');
+// console.log(firstName + '' + lastName);
+
+
+/*********************
+ * Basic Operators
+ */
+
+ var year, yearJohn, yearMark;
+ now = 2019;
+ ageJohn = 27;
+ ageMark = 33;
+ yearJohn = now - ageJohn;
+ yearMark = now - ageMark;
+
+ console.log(yearJohn);
+
+ console.log(now + 2);
+ console.log(now * 2);
+ console.log(now / 10);
+
+ //Logical operator
+ var johnOlder = ageJohn < ageMark;
+ console.log(johnOlder);
+
+ //type operator
+console.log(typeof johnOlder);
+console.log(typeof ageJohn);
