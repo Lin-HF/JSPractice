@@ -127,11 +127,18 @@
 //Falsy value: undefined, null, 0, NaN, ''
 //truthy value: Not falsy value
 
-var height;
-if (height) {
-    console.log('Variable is defined');
-} else {
-    console.log('Not defined');
+// var height;
+// if (height) {
+//     console.log('Variable is defined');
+// } else {
+//     console.log('Not defined');
+// }
+
+
+//=== Equality Operators
+height = 23;
+if (height == '23') {
+    console.log('== does type coercion!');
 }
-
-
+//23 == '23'
+//23 === 23 -> false
