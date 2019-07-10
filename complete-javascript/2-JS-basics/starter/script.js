@@ -97,28 +97,41 @@
 // x++;
 // console.log(x);
 
-var massDavid = 110; //kg
-var heightDavid = 1.87; // meters
+// var massDavid = 110; //kg
+// var heightDavid = 1.87; // meters
 
-var massJohn = 92;
-var heightJohn = 1.95;
+// var massJohn = 92;
+// var heightJohn = 1.95;
 
-var BMIDavid = massDavid / (heightDavid * heightDavid);
-var BMIJohn = massJohn / (heightJohn * heightJohn);
+// var BMIDavid = massDavid / (heightDavid * heightDavid);
+// var BMIJohn = massJohn / (heightJohn * heightJohn);
 
-console.log(BMIDavid, BMIJohn);
+// console.log(BMIDavid, BMIJohn);
 
-var age = 21;
-switch(true) {
-    case age < 10:
-        console.log("Age is smaller than 10");
-        break;
-    case age < 20:
-        console.log("He is a teenager");
-        break;
-    case age < 50:
-        console.log("He is a man");
-        break;
-    default:
-        console.log("He is an old man");
+// var age = 21;
+// switch(true) {
+//     case age < 10:
+//         console.log("Age is smaller than 10");
+//         break;
+//     case age < 20:
+//         console.log("He is a teenager");
+//         break;
+//     case age < 50:
+//         console.log("He is a man");
+//         break;
+//     default:
+//         console.log("He is an old man");
+// }
+
+
+//Falsy value: undefined, null, 0, NaN, ''
+//truthy value: Not falsy value
+
+var height;
+if (height) {
+    console.log('Variable is defined');
+} else {
+    console.log('Not defined');
 }
+
+
